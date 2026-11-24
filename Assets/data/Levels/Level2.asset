@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76f35ae24e93634e9aa81ce359233fb, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  recipe: {fileID: 11400000, guid: 62866f2ba14edbb459b91d9613ff2192, type: 2}
+  possibleIngredients:
+  - {fileID: 11400000, guid: 4dda24b51dc92274f96ad26a3f19c869, type: 2}
+  - {fileID: 11400000, guid: 2c0ae3cf79108494ea2ec97d499f7fa1, type: 2}
+  - {fileID: 11400000, guid: 1ede659854b4260429119b78debdd9a1, type: 2}
+  - {fileID: 11400000, guid: 8cbd4493126b87e4eb4f14ca542b4afd, type: 2}
+  - {fileID: 11400000, guid: a96cf503469ecec41905841061193405, type: 2}
+  - {fileID: 11400000, guid: abc1ab94bb6a86a48b55a388e1dc19e3, type: 2}
+  - {fileID: 11400000, guid: 3f65041e12ea9bc4a9d5ee1079cb2e0a, type: 2}
+  - {fileID: 11400000, guid: e6b7f0e10c936974586d0c3a688ff93b, type: 2}
+  - {fileID: 11400000, guid: 4a43099b4ac3f7b419a0ebd6c65163a0, type: 2}
+  - {fileID: 11400000, guid: ac71cc32195664f4e9c2910af96aeb0a, type: 2}
+  - {fileID: 11400000, guid: 88cf0db9b8b644a4eb75b7f3926ad001, type: 2}
+  - {fileID: 11400000, guid: 8a47bda34efda7d48a9613ebe7e324f1, type: 2}
+  - {fileID: 11400000, guid: 3943276f8259b1a46a1b3425dc03995e, type: 2}
+  - {fileID: 11400000, guid: 29b4f82f2aefd1e47915a2e591b83801, type: 2}
+  - {fileID: 11400000, guid: 584f11a9e647ff2499851d8247eb5831, type: 2}
+  - {fileID: 11400000, guid: d58251b5381f52b48b8d8527dbdfe205, type: 2}
+  - {fileID: 11400000, guid: 164f48756104cdc4fbdf1524cbc321ee, type: 2}
+  - {fileID: 11400000, guid: 079768fe4c2c5d74d8645dbe55753269, type: 2}
+  - {fileID: 11400000, guid: a885c93b5ad7947419ca0fb571ebb25f, type: 2}
+  - {fileID: 11400000, guid: 0da69e450d9a16647ae440110a00a5ea, type: 2}
+  - {fileID: 11400000, guid: bc62b0450f56d074385c2ff595ae7ef9, type: 2}
+  - {fileID: 11400000, guid: 6cf2eda5aa3bb7d47986a209bb960fe7, type: 2}
+  - {fileID: 11400000, guid: 86e68525f12a65444a744aa9e09ea3e7, type: 2}
+  spawnInterval: 1.4
+  fallSpeed: 4.5
+  timeLimitSeconds: 80
+  isEndless: 0
+  endlessPool: []
+  endlessMinTypes: 2
+  endlessMaxTypes: 4
+  endlessMaxCount: 3
+  endlessRoundBonus: 500
+  endlessSpeedStep: 0.3
+  endlessIntervalStep: 0.05

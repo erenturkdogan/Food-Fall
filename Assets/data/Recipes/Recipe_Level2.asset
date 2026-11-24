@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83803901d9a13cb47a289152af6c558a, type: 3}
+  m_Name: Recipe_Level2
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeData
+  recipeName: Recipe_Level2
+  entries:
+  - ingredient: {fileID: 11400000, guid: 164f48756104cdc4fbdf1524cbc321ee, type: 2}
+    requiredCount: 4
+  - ingredient: {fileID: 11400000, guid: d58251b5381f52b48b8d8527dbdfe205, type: 2}
+    requiredCount: 2
+  - ingredient: {fileID: 11400000, guid: bc62b0450f56d074385c2ff595ae7ef9, type: 2}
+    requiredCount: 3
+  - ingredient: {fileID: 11400000, guid: 9e1402aba1ffb08408644fe4f1ad8736, type: 2}
+    requiredCount: 4
